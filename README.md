@@ -17,3 +17,7 @@
 | [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |     Medium    | BST  | [Python](Medium/701.py)   |
 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) |     Medium    | Greedy, 2 pointer  | [Python](Medium/763.py)   |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) |     Medium    | Heap, Sort  | [Python](Medium/56.py)   |
+| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) |     Easy    | Greedy  | [Python](Medium/392.py)   |
+| [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |     Medium    | Heap  | [Python](Medium/215.py)   |
+| [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) |     Medium    | BST  | [Python](Medium/1038.py)   |
+| [1214. Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/) |     Medium    | BST  | [Python](Medium/1214.py)   |
