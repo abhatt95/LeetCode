@@ -21,3 +21,9 @@
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |     Medium    | Heap  | [Python](Medium/215.py)   |
 | [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) |     Medium    | BST  | [Python](Medium/1038.py)   |
 | [1214. Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/) |     Medium    | BST  | [Python](Medium/1214.py)   |
+| [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |     Medium    | Link List  | [Python](Medium/2.py)   |
+| [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) |     Medium    | Dynamic Programming | [Python](Medium/377.py)   |
+| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) |     Medium    | Dynamic Programming | [Python](Medium/213.py)   |
+| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) |     Medium    | Dynamic Programming | [Python](Medium/62.py)   |
+| [55. Jump Game](https://leetcode.com/problems/jump-game/) |     Medium    | Greedy | [Python](Medium/55.py)   |
+| [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) |     Medium    | String, Greedy | [Python](Medium/1268.py)   |

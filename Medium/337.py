@@ -14,33 +14,16 @@ Determine the maximum amount of money the thief can rob tonight without alerting
 class Solution:
     def rob(self, root: TreeNode) -> int:
         
-        profit_lookup = {}
-        def get_max_profit(root):
+        def sr(root):
             
-            if root == None:
-                return 0
+            if not root: return (0,0)
             
-            if root.left == None and root.right == None:
-                return root.val
+            left,right = sr(root.left), sr(root.right)
             
-            left_left_profit =  left_right_profit = right_left_profit = right_right_profit = 0
+            current = root.val + left[1] + right[1]
             
-            if root.left != None:
-                if root.left.left not in profit_lookup:
-                    profit_lookup[root.left.left] = get_max_profit(root.left.left)
-                left_left_profit = profit_lookup[root.left.left]
-                if root.left.right not in profit_lookup:
-                    profit_lookup[root.left.right] = get_max_profit(root.left.right)
-                left_right_profit = profit_lookup[root.left.right]
-                
-            if root.right != None:
-                if root.right.left not in profit_lookup:
-                    profit_lookup[root.right.left] = get_max_profit(root.right.left)
-                right_left_profit = profit_lookup[root.right.left]
-                if root.right.right not in profit_lookup:
-                    profit_lookup[root.right.right] = get_max_profit(root.right.right)
-                right_right_profit = profit_lookup[root.right.right]
-                
-            return max(root.val+left_left_profit+left_right_profit+right_left_profit+right_right_profit,get_max_profit(root.left) + get_max_profit(root.right) )
-        return get_max_profit(root)
+            later = max(left) + max(right)
+            
+            return (current,later)
         
+        return max(sr(root))
