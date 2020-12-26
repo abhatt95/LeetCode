@@ -1,3 +1,9 @@
+# Algorithms reference material 
+
+## Divide and conquer 
+- [Khan academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+
+
 #  When to use heap
 
 When faced to find a minimum or maximum for a stream or any other source use a heap. The pool from which min or max has to be feteched can be easliy updated due to uniqueness of heap in O(log N) time. Dijkstra is one of the algorithms that can be impelemted by power of heap. 
