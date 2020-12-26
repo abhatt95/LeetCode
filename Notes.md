@@ -10,5 +10,5 @@ When faced to find a minimum or maximum for a stream or any other source use a h
 
 # Data Structures bible 
 
-[Victor Adamchik CS 121 CMU](https://www.cs.cmu.edu/~adamchik/15-121/)
+[Victor Adamchik CS 121 CMU](http://www.andrew.cmu.edu/course/15-121/)
 - [Sorting Algorithms ](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html)
