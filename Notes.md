@@ -2,6 +2,7 @@
 
 ## Divide and conquer 
 - [Khan academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+- [Complexity analysis for merge sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/analysis-of-merge-sort)
 
 
 #  When to use heap
