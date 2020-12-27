@@ -27,3 +27,4 @@
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) |     Medium    | Dynamic Programming | [Python](Medium/62.py)   |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) |     Medium    | Greedy | [Python](Medium/55.py)   |
 | [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) |     Medium    | String, Greedy | [Python](Medium/1268.py)   |
+| [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) |     Easy    | Hashmap | [Python](Easy/359.py)   |
