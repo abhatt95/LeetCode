@@ -22,12 +22,11 @@ class Heap:
             k = 1 
             while k < len(self.heap):
                 min_index = k 
-                l = 2*k 
-                r = 2*k + 1
+                l,r = 2*k,2*k + 1
                 if l < len(self.heap) and self.heap[l] < self.heap[k]:
                     k = l
                 if r < len(self.heap) and self.heap[r] < self.heap[k]:
-                    k = r                
+                    k = r
                 if min_index!=k:
                     self.heap[k],self.heap[min_index]=self.heap[min_index],self.heap[k]
                 else: break
